@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="ms">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PPTA - Panduan Part Time Affiliate</title>
+  <meta name="description"
+    content="Raih RM1K–RM10K Pertama Dalam 30 Hari Dengan Sistem Affiliate Yang Dah Terbukti — Tanpa Produk Sendiri, Tanpa Modal Besar!" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- ✅ Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX'); // Gantikan dengan ID GA4 anda
+  </script>
+
+  <!-- ✅ Meta Pixel -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'FB_PIXEL_ID'); // Ganti dengan ID Pixel anda
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=FB_PIXEL_ID&ev=PageView&noscript=1" />
+  </noscript>
+
+  <!-- ✅ OneSignal Push Notification -->
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "GANTI_APP_ID_KAU"
+      });
+    });
+  </script>
+</head>
+
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Sticky Countdown -->
+  <div class="fixed top-0 w-full bg-red-600 text-white text-center py-2 z-50">
+    ⏳ Tawaran RM67 tamat dalam <span class="countdown-timer font-bold"></span> |
+    🔥 Hanya <span id="batch-slots" class="font-bold text-yellow-300">23</span> slot tersisa dari 100 –
+    <a href="#buy-section" class="underline font-bold">GRAB SEKARANG!</a>
+  </div>
+
+  <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-xl mt-16 p-8">
+
+    <!-- Main Headline -->
+    <div class="text-center mb-8">
+      <h1 class="text-4xl md:text-5xl font-bold text-red-600 mb-4">
+        🔥 STOP TUNGGU GAJI NAIK BARU NAK RASA CUKUP...
+      </h1>
+      <p class="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
+        <em>Raih RM1K–RM10K Pertama Dalam 30 Hari Dengan Sistem Affiliate Yang Dah Terbukti — Tanpa Produk Sendiri,
+          Tanpa Modal Besar, Tanpa Tunjuk Muka!</em>
+      </p>
+    </div>
+
+    <!-- Countdown -->
+    <div class="text-center mb-8">
+      <p class="text-lg text-gray-700">Tawaran RM67 tamat dalam:</p>
+      <div class="countdown-timer text-3xl font-mono text-red-500 font-bold">Loading...</div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="bg-gray-200 w-full rounded-full h-3 mb-8">
+      <div id="progress" class="bg-red-500 h-3 rounded-full" style="width: 0%;"></div>
+    </div>
+
+    <!-- Problem Identification -->
+    <div class="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
+      <h2 class="text-2xl font-bold text-red-700 mb-4">Adakah Ini Kau Sekarang?</h2>
+      <div class="space-y-3">
+        <p class="flex items-start"><span class="text-red-500 mr-2">❌</span> <strong>Gaji cukup-cukup makan</strong>,
+          tapi nak lebih untuk keluarga</p>
+        <p class="flex items-start"><span class="text-red-500 mr-2">❌</span> <strong>Tengok orang lain buat duit
+            online</strong>, kau masih stuck kat starting line</p>
+        <p class="flex items-start"><span class="text-red-500 mr-2">❌</span> <strong>Dah cuba macam-macam</strong>, tapi
+          selalu hangat-hangat tahi ayam</p>
+        <p class="flex items-start"><span class="text-red-500 mr-2">❌</span> <strong>Takut mula</strong> sebab tak tahu
+          mana step pertama</p>
+        <p class="flex items-start"><span class="text-red-500 mr-2">❌</span> <strong>Sibuk kerja/study</strong>, tapi
+          nak sangat ada side income</p>
+      </div>
+      <p class="mt-4 font-bold text-red-700"><strong>Kalau jawapan kau "YA" untuk 3 atau lebih... teruskan
+          baca.</strong></p>
+    </div>
+
+    <!-- Reality Check -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
+      <h2 class="text-2xl font-bold text-yellow-700 mb-4">💡 SINI REALITI YANG PEDIH:</h2>
+      <p class="mb-4">Ramai orang stuck dalam comfort zone kerja 9-5, berharap:</p>
+      <ul class="list-disc list-inside space-y-2 mb-4">
+        <li>"Maybe tahun depan gaji naik..."</li>
+        <li>"Maybe ada bonus besar..."</li>
+        <li>"Maybe rezeki datang sendiri..."</li>
+      </ul>
+      <p class="font-bold text-yellow-800 mb-4">Tapi berapa lama lagi kau nak tunggu "maybe"?</p>
+      <p class="mb-4">Sementara kau tunggu, ada thousands orang lain yang dah mula jana <strong
+          class="text-green-600">RM3K–RM15K sebulan</strong> dari rumah dengan <strong>TikTok & Shopee
+          Affiliate</strong>.</p>
+      <p class="text-xl font-bold text-yellow-800">Dan sekarang, giliran kau.</p>
+    </div>
+
+    <!-- Product Introduction -->
+    <div class="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
+      <h2 class="text-2xl font-bold text-blue-700 mb-4">🎯 KENALAN DENGAN PANDUAN PART TIME AFFILIATE (PPTA)</h2>
+      <p class="mb-4">Sistem <strong>17 Modul + Tools Ready-to-Use</strong> yang direka khas untuk:</p>
+      <div class="space-y-3">
+        <p class="flex items-start"><span class="text-green-500 mr-2">✅</span> <strong>Part-timer yang sibuk</strong>
+          tapi serius nak extra income</p>
+        <p class="flex items-start"><span class="text-green-500 mr-2">✅</span> <strong>Newbie yang zero
+            experience</strong> tapi nak mula betul-betul</p>
+        <p class="flex items-start"><span class="text-green-500 mr-2">✅</span> <strong>Orang yang dah try banyak
+            kali</strong> tapi nak sistem yang actually work</p>
+      </div>
+    </div>
+
+    <!-- PPTA Product Mockup -->
+    <div class="text-center mb-8">
+      <div class="bg-gradient-to-br from-blue-100 to-purple-100 p-8 rounded-lg shadow-lg">
+        <h3 class="text-xl font-bold text-gray-800 mb-4">📱 PREVIEW PPTA SYSTEM</h3>
+        <div class="max-w-lg mx-auto">
+          <!-- Replace this placeholder with your actual PPTA mockup -->
+          <img id="ppta-mockup" src="https://via.placeholder.com/500x300/4F46E5/FFFFFF?text=PPTA+MOCKUP+PLACEHOLDER"
+            alt="PPTA System Preview"
+            class="w-full rounded-lg shadow-md border border-gray-200 hover:scale-105 transition-transform">
+          <p class="text-sm text-gray-600 mt-3 italic">*Replace dengan gambar PPTA mockup yang sebenar</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- What You'll Learn -->
+    <div class="mb-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">📚 APA YANG KAU AKAN MASTER DALAM PPTA:</h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg border border-purple-200">
+          <h3 class="text-lg font-bold text-purple-700 mb-3">🚀 PHASE 1: FOUNDATION (Modul 1-4)</h3>
+          <ul class="text-sm space-y-2">
+            <li>• Setup mindset millionaire (90% orang skip ni, sebab tu tak berjaya)</li>
+            <li>• Pilih niche & produk yang <strong>guarantee laku</strong></li>
+            <li>• Setup tools & tracker untuk monitor profit real-time</li>
+            <li>• Research competitor yang buat 6-figure (copy yang berjaya, skip yang gagal)</li>
+          </ul>
+        </div>
+
+        <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg border border-green-200">
+          <h3 class="text-lg font-bold text-green-700 mb-3">📱 PHASE 2: CONTENT CREATION (Modul 5-10)</h3>
+          <ul class="text-sm space-y-2 mb-4">
+            <li>• <strong>10 jenis content viral</strong> yang boleh recycle berulang kali</li>
+            <li>• Script template yang <strong>auto trigger buying mood</strong></li>
+            <li>• Edit video CapCut dalam <strong>5 minit or less</strong> (step-by-step)</li>
+            <li>• Cara <strong>buat content tanpa tunjuk muka</strong> (untuk yang shy camera)</li>
+          </ul>
+          <!-- Video Training Preview -->
+          <div class="text-center">
+            <img id="training-preview"
+              src="https://via.placeholder.com/280x160/10B981/FFFFFF?text=VIDEO+TRAINING+PREVIEW"
+              alt="Video Training Preview"
+              class="w-full max-w-xs mx-auto rounded shadow hover:scale-105 transition-transform">
+            <p class="text-xs text-gray-600 mt-2 italic">*Replace dengan screenshot video training</p>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200">
+          <h3 class="text-lg font-bold text-orange-700 mb-3">💰 PHASE 3: CONVERSION & SCALING (Modul 11-17)</h3>
+          <ul class="text-sm space-y-2">
+            <li>• Funnel system yang <strong>convert viewers jadi buyers</strong></li>
+            <li>• Live selling technique yang <strong>close sale on the spot</strong></li>
+            <li>• Automation tools untuk handle <strong>multiple income streams</strong></li>
+            <li>• Advanced strategies untuk <strong>scale to RM5K++/month</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bonuses -->
+    <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6 rounded-lg mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-center">🎁 EXCLUSIVE BONUSES (Worth RM300+)</h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="space-y-2">
+          <p class="flex items-start"><span class="mr-2">🔥</span> <strong>BONUS #1:</strong> 50+ Template CapCut &
+            Sound Effect Library</p>
+          <p class="flex items-start"><span class="mr-2">🔥</span> <strong>BONUS #2:</strong> AI Prompt Generator untuk
+            Content Ideas (Never run out!)</p>
+          <p class="flex items-start"><span class="mr-2">🔥</span> <strong>BONUS #3:</strong> Notion Dashboard PRO
+            (Track everything in one place)</p>
+        </div>
+        <div class="space-y-2">
+          <p class="flex items-start"><span class="mr-2">🔥</span> <strong>BONUS #4:</strong> 30-Day Content Calendar
+            (Posted, tinggal follow)</p>
+          <p class="flex items-start"><span class="mr-2">🔥</span> <strong>BONUS #5:</strong> VIP WhatsApp Group Access
+            (Direct support dari creator)</p>
+          <p class="flex items-start"><span class="mr-2">🔥</span> <strong>BONUS #6:</strong> Free Updates for LIFE (New
+            strategies, new tools, new bonuses)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bonus Showcase Poster -->
+    <div class="text-center mb-8">
+      <div class="bg-gradient-to-br from-orange-100 to-red-100 p-6 rounded-lg">
+        <h3 class="text-xl font-bold text-gray-800 mb-4">🎁 BONUS SHOWCASE</h3>
+        <div class="max-w-lg mx-auto">
+          <!-- Replace with actual bonus showcase poster -->
+          <img id="bonus-poster" src="https://via.placeholder.com/500x400/F97316/FFFFFF?text=BONUS+SHOWCASE+POSTER"
+            alt="Exclusive Bonuses Preview"
+            class="w-full rounded-lg shadow-md border border-gray-200 hover:scale-105 transition-transform">
+          <p class="text-sm text-gray-600 mt-3 italic">*Replace dengan poster showcase bonus yang sebenar</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Income Projections -->
+    <div class="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
+      <h2 class="text-2xl font-bold text-green-700 mb-4 text-center">📈 REALISTIC INCOME PROJECTIONS:</h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="space-y-3">
+          <p><strong>Month 1:</strong> <span class="text-green-600">RM300 - RM1,500</span> (sambil belajar)</p>
+          <p><strong>Month 2:</strong> <span class="text-green-600">RM800 - RM3,000</span> (dah mahir basic)</p>
+        </div>
+        <div class="space-y-3">
+          <p><strong>Month 3:</strong> <span class="text-green-600">RM1,500 - RM5,000</span> (consistent execution)</p>
+          <p><strong>Month 6+:</strong> <span class="text-green-600">RM3,000 - RM15,000</span> (mastery level)</p>
+        </div>
+      </div>
+      <p class="text-xs mt-4 text-gray-600 italic">*Results vary based on effort and consistency. Past performance
+        doesn't guarantee future results.</p>
+    </div>
+
+    <!-- ROI Calculator Section -->
+    <div class="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-300 p-8 rounded-lg mb-8 shadow-lg">
+      <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">🧮 KIRA POTENSI INCOME ANDA</h2>
+      <div class="max-w-2xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-6 mb-6">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-lg font-bold text-gray-700 mb-4">Input Maklumat Anda:</h3>
+            <div class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-600 mb-2">Gaji Bulanan Sekarang (RM):</label>
+                <input type="number" id="current-salary" placeholder="2500"
+                  class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-600 mb-2">Masa Dedikasi Per Hari (jam):</label>
+                <select id="time-commitment"
+                  class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                  <option value="1">1 jam sehari</option>
+                  <option value="2" selected>2 jam sehari</option>
+                  <option value="3">3 jam sehari</option>
+                  <option value="4">4+ jam sehari</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-600 mb-2">Target Timeline:</label>
+                <select id="timeline"
+                  class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                  <option value="3">3 bulan</option>
+                  <option value="6" selected>6 bulan</option>
+                  <option value="12">1 tahun</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-600 mb-2">Target Income Bulanan (Optional):</label>
+                <input type="number" id="target-income" placeholder="Contoh: 8000"
+                  class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                <p class="text-xs text-gray-500 mt-1">Masukkan target income anda untuk analisis yang lebih detailed</p>
+              </div>
+              <button type="button" id="roi-calculate-btn" onclick="calculateROI()"
+                class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg transition-colors">
+                💰 Kira Potensi Income Saya!
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-lg font-bold text-gray-700 mb-4">Potensi Income Anda:</h3>
+            <div id="roi-results" class="space-y-4">
+              <div class="text-center text-gray-500 py-8">
+                <div class="text-4xl mb-2">🧮</div>
+                <p>Masukkan maklumat anda untuk melihat projection</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
+          <p class="text-sm text-gray-700">
+            <strong>Disclaimer:</strong> Calculasi ini berdasarkan average performance students PPTA.
+            Results may vary berdasarkan effort, consistency, dan market conditions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Affiliate Success Poster -->
+    <div class="text-center mb-8">
+      <div class="bg-gradient-to-r from-green-400 to-blue-500 p-6 rounded-lg">
+        <h3 class="text-xl font-bold text-white mb-4">💰 STUDENT SUCCESS STORIES</h3>
+        <div class="max-w-md mx-auto">
+          <!-- Replace with actual success poster -->
+          <img id="success-poster" src="https://via.placeholder.com/400x600/059669/FFFFFF?text=SUCCESS+STORIES+POSTER"
+            alt="Student Success Stories"
+            class="w-full rounded-lg shadow-lg border-2 border-white hover:scale-105 transition-transform">
+          <p class="text-sm text-white mt-3 italic">*Replace dengan poster success stories yang sebenar</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Before/After Income Comparison -->
+    <div class="bg-gradient-to-r from-red-100 to-green-100 p-8 rounded-lg mb-8">
+      <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">📊 BEFORE vs AFTER PPTA</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-red-50 p-6 rounded-lg border-2 border-red-300">
+          <h3 class="text-xl font-bold text-red-700 mb-4 text-center">❌ SEBELUM PPTA</h3>
+          <div class="space-y-3">
+            <div class="flex justify-between items-center border-b pb-2">
+              <span class="text-gray-700">Gaji Bulanan:</span>
+              <span class="text-red-600 font-bold">RM2,500</span>
+            </div>
+            <div class="flex justify-between items-center border-b pb-2">
+              <span class="text-gray-700">Side Income:</span>
+              <span class="text-red-600 font-bold">RM0</span>
+            </div>
+            <div class="flex justify-between items-center border-b pb-2">
+              <span class="text-gray-700">Total Income:</span>
+              <span class="text-red-600 font-bold">RM2,500</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-gray-700">Financial Stress:</span>
+              <span class="text-red-600 font-bold">TINGGI 😰</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-green-50 p-6 rounded-lg border-2 border-green-300">
+          <h3 class="text-xl font-bold text-green-700 mb-4 text-center">✅ SELEPAS PPTA</h3>
+          <div class="space-y-3">
+            <div class="flex justify-between items-center border-b pb-2">
+              <span class="text-gray-700">Gaji Bulanan:</span>
+              <span class="text-green-600 font-bold">RM2,500</span>
+            </div>
+            <div class="flex justify-between items-center border-b pb-2">
+              <span class="text-gray-700">Affiliate Income:</span>
+              <span class="text-green-600 font-bold">RM3,000-RM8,000</span>
+            </div>
+            <div class="flex justify-between items-center border-b pb-2">
+              <span class="text-gray-700">Total Income:</span>
+              <span class="text-green-600 font-bold text-lg">RM5,500-RM10,500</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-gray-700">Financial Freedom:</span>
+              <span class="text-green-600 font-bold">ACHIEVED! 🎉</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-6">
+        <p class="text-lg font-bold text-gray-800">Bayangkan kehidupan dengan <span class="text-green-600">RM3K-RM8K
+            extra</span> setiap bulan!</p>
+      </div>
+    </div>
+
+    <!-- Creator Credibility Section -->
+    <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-lg border border-blue-200 mb-8">
+      <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">👨‍💼 SIAPA YANG AJAR KORANG?</h2>
+      <div class="flex flex-col md:flex-row items-center gap-6">
+        <div class="md:w-1/3 text-center">
+          <div
+            class="w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+            <span class="text-white text-4xl font-bold">AZ</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800">Azmi Rahman</h3>
+          <p class="text-sm text-gray-600">Certified Affiliate Marketing Expert</p>
+        </div>
+        <div class="md:w-2/3">
+          <div class="space-y-4">
+            <div class="flex items-start space-x-3">
+              <span class="text-green-500 text-xl">✅</span>
+              <p><strong>5+ tahun experience</strong> dalam affiliate marketing dengan track record terbukti</p>
+            </div>
+            <div class="flex items-start space-x-3">
+              <span class="text-green-500 text-xl">✅</span>
+              <p><strong>RM50K+ monthly earnings</strong> dari multiple affiliate programs</p>
+            </div>
+            <div class="flex items-start space-x-3">
+              <span class="text-green-500 text-xl">✅</span>
+              <p><strong>2,000+ students</strong> yang dah berjaya dengan sistem dia</p>
+            </div>
+            <div class="flex items-start space-x-3">
+              <span class="text-green-500 text-xl">✅</span>
+              <p><strong>Featured dalam</strong> major marketing conferences & podcasts</p>
+            </div>
+          </div>
+          <div class="bg-blue-100 p-4 rounded-lg mt-4">
+            <p class="text-sm italic text-gray-700">"Aku tak nak tengok korang struggle macam aku dulu. That's why aku
+              create PPTA - untuk shortcut journey korang dari zero to hero dalam affiliate marketing."</p>
+          </div>
+        </div>
+        <!-- Community Poster -->
+        <div class="md:w-1/3 text-center mt-4 md:mt-0">
+          <img id="community-poster" src="https://via.placeholder.com/250x300/8B5CF6/FFFFFF?text=COMMUNITY+POSTER"
+            alt="PPTA Community"
+            class="w-full max-w-xs mx-auto rounded-lg shadow-md border border-gray-200 hover:scale-105 transition-transform">
+          <p class="text-xs text-gray-600 mt-2 italic">*Replace dengan poster community</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Testimonials Section -->
+    <div class="bg-gray-50 p-6 rounded-lg shadow-inner mb-8">
+      <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">🎥 TESTIMONI VIDEO DARI STUDENT PPTA:</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div class="bg-white p-4 rounded-lg shadow cursor-pointer hover:shadow-lg transition-shadow" data-video="siti"
+          data-student="Siti">
+          <div class="relative bg-gray-200 rounded-lg mb-3 h-40 flex items-center justify-center">
+            <div class="absolute inset-0 bg-gradient-to-br from-pink-400 to-red-500 rounded-lg opacity-90"></div>
+            <div class="relative z-10 text-center text-white">
+              <div class="w-12 h-12 bg-white bg-opacity-30 rounded-full flex items-center justify-center mx-auto mb-2">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Klik untuk tonton</p>
+            </div>
+          </div>
+          <h4 class="font-bold text-gray-800">Siti - Housewife</h4>
+          <p class="text-sm text-gray-600">"RM2,100 dalam 45 hari!"</p>
+          <div class="flex items-center mt-2">
+            <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+            <span class="text-xs text-gray-500 ml-2">Verified Review</span>
+          </div>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg shadow cursor-pointer hover:shadow-lg transition-shadow" data-video="hafiz"
+          data-student="Hafiz">
+          <div class="relative bg-gray-200 rounded-lg mb-3 h-40 flex items-center justify-center">
+            <div class="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg opacity-90"></div>
+            <div class="relative z-10 text-center text-white">
+              <div class="w-12 h-12 bg-white bg-opacity-30 rounded-full flex items-center justify-center mx-auto mb-2">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Klik untuk tonton</p>
+            </div>
+          </div>
+          <h4 class="font-bold text-gray-800">Hafiz - Student UiTM</h4>
+          <p class="text-sm text-gray-600">"RM500-800 sebulan!"</p>
+          <div class="flex items-center mt-2">
+            <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+            <span class="text-xs text-gray-500 ml-2">Verified Review</span>
+          </div>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg shadow cursor-pointer hover:shadow-lg transition-shadow" data-video="ahmad"
+          data-student="Ahmad">
+          <div class="relative bg-gray-200 rounded-lg mb-3 h-40 flex items-center justify-center">
+            <div class="absolute inset-0 bg-gradient-to-br from-green-400 to-blue-500 rounded-lg opacity-90"></div>
+            <div class="relative z-10 text-center text-white">
+              <div class="w-12 h-12 bg-white bg-opacity-30 rounded-full flex items-center justify-center mx-auto mb-2">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Klik untuk tonton</p>
+            </div>
+          </div>
+          <h4 class="font-bold text-gray-800">Ahmad - Factory Worker</h4>
+          <p class="text-sm text-gray-600">"RM1K+ monthly!"</p>
+          <div class="flex items-center mt-2">
+            <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+            <span class="text-xs text-gray-500 ml-2">Verified Review</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Traditional testimonials -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow border-l-4 border-green-500">
+          <p class="italic text-gray-700 mb-3">"Dalam 45 hari, aku dah buat RM2,100 first time! Sebagai mak housewife,
+            ni game changer untuk family budget."</p>
+          <p class="text-sm font-bold text-green-600">— Siti, 29, Housewife dari Johor</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow border-l-4 border-blue-500">
+          <p class="italic text-gray-700 mb-3">"Student budget ketat, tapi dengan PPTA aku boleh dapat RM500-800 sebulan
+            untuk duit belanja. Simple sangat!"</p>
+          <p class="text-sm font-bold text-blue-600">— Hafiz, 22, Student UiTM</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Accordion -->
+    <div class="bg-white p-6 rounded shadow mb-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">❓ SOALAN YANG SELALU DITANYA:</h2>
+      <div class="space-y-4">
+        <div class="faq-item border-b pb-4">
+          <button
+            class="faq-question w-full text-left font-medium text-gray-800 flex justify-between items-center hover:text-green-600"
+            onclick="toggleFAQ(this)">
+            Berapa lama nak nampak hasil?
+            <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="faq-answer hidden mt-3 text-gray-600 text-sm">
+            Seawal 7-14 hari kalau kau follow exactly macam dalam panduan.
+          </div>
+        </div>
+
+        <div class="faq-item border-b pb-4">
+          <button
+            class="faq-question w-full text-left font-medium text-gray-800 flex justify-between items-center hover:text-green-600"
+            onclick="toggleFAQ(this)">
+            Kena ada followers banyak dulu ke?
+            <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="faq-answer hidden mt-3 text-gray-600 text-sm">
+            Tak perlu. Ada student start dengan 0 followers, dalam 30 hari dah 10K+.
+          </div>
+        </div>
+
+        <div class="faq-item border-b pb-4">
+          <button
+            class="faq-question w-full text-left font-medium text-gray-800 flex justify-between items-center hover:text-green-600"
+            onclick="toggleFAQ(this)">
+            Susah tak nak edit video?
+            <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="faq-answer hidden mt-3 text-gray-600 text-sm">
+            Semua ada template ready. Copy paste je, tukar text. 5 minit settle.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button
+            class="faq-question w-full text-left font-medium text-gray-800 flex justify-between items-center hover:text-green-600"
+            onclick="toggleFAQ(this)">
+            Kena invest modal besar?
+            <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="faq-answer hidden mt-3 text-gray-600 text-sm">
+            Kosong. Yang kau kena bayar hanya harga panduan ni je.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Who This Is For -->
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="bg-red-50 border-2 border-red-200 p-6 rounded-lg">
+        <h3 class="text-xl font-bold text-red-700 mb-4">⚡ INI BUKAN UNTUK SEMUA ORANG</h3>
+        <p class="font-bold text-red-600 mb-3">JANGAN BELI kalau kau:</p>
+        <ul class="space-y-2 text-sm">
+          <li>• Expect magic tanpa effort</li>
+          <li>• Nak instant millionaire dalam seminggu</li>
+          <li>• Tak sanggup dedicate 1-2 jam sehari</li>
+          <li>• Cari jalan pintas atau skim cepat kaya</li>
+        </ul>
+      </div>
+
+      <div class="bg-green-50 border-2 border-green-200 p-6 rounded-lg">
+        <h3 class="text-xl font-bold text-green-700 mb-4">✅ PERFECT UNTUK KAU</h3>
+        <p class="font-bold text-green-600 mb-3">PERFECT UNTUK KAU kalau:</p>
+        <ul class="space-y-2 text-sm">
+          <li>• Serius nak ubah financial situation</li>
+          <li>• Sanggup belajar & take action consistently</li>
+          <li>• Nak build sustainable income stream</li>
+          <li>• Ready invest in yourself untuk long-term success</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Limited-Time Bonus Section -->
+    <div class="bg-gradient-to-r from-orange-400 to-red-500 text-white p-6 rounded-lg mb-8 animate-pulse">
+      <div class="text-center">
+        <h2 class="text-2xl font-bold mb-4">🚨 BONUS TERHAD MASA - HARI INI SAHAJA!</h2>
+        <div class="bg-white bg-opacity-20 p-4 rounded-lg mb-4">
+          <p class="text-lg font-bold mb-2">TAMBAHAN BONUS EKSKLUSIF (Worth RM200+):</p>
+          <div class="grid md:grid-cols-2 gap-4 text-sm">
+            <div class="space-y-2">
+              <p>🎯 <strong>BONUS #7:</strong> Live Coaching Session (RM99 value)</p>
+              <p>💎 <strong>BONUS #8:</strong> Premium Hashtag Research Tool (RM67 value)</p>
+            </div>
+            <div class="space-y-2">
+              <p>🚀 <strong>BONUS #9:</strong> Viral Content Formula (RM39 value)</p>
+              <p>📱 <strong>BONUS #10:</strong> TikTok Algorithm Hack Guide (RM29 value)</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-yellow-400 text-black p-3 rounded-lg font-bold">
+          ⏰ Bonus ni akan HILANG dalam <span class="countdown-bonus">05:32:18</span>!
+        </div>
+      </div>
+    </div>
+
+    <!-- Enhanced Risk Reversal -->
+    <div class="bg-gradient-to-br from-green-50 to-blue-50 border-2 border-green-300 p-8 rounded-lg mb-6">
+      <div class="text-center mb-6">
+        <div class="inline-flex items-center bg-green-100 border-2 border-green-500 rounded-full px-6 py-3 mb-4">
+          <svg class="w-8 h-8 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <span class="text-green-700 font-bold text-lg">🛡️ TRIPLE GUARANTEE PROTECTION</span>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 mb-6">
+        <div class="text-center bg-white p-4 rounded-lg shadow">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <span class="text-green-600 text-2xl">💰</span>
+          </div>
+          <h3 class="font-bold text-gray-800 mb-2">60-HARI MONEY BACK</h3>
+          <p class="text-sm text-gray-600">Tak buat sebarang income? Full refund tanpa soalan.</p>
+        </div>
+
+        <div class="text-center bg-white p-4 rounded-lg shadow">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <span class="text-blue-600 text-2xl">📞</span>
+          </div>
+          <h3 class="font-bold text-gray-800 mb-2">24/7 SUPPORT</h3>
+          <p class="text-sm text-gray-600">WhatsApp direct dengan team support untuk sebarang masalah.</p>
+        </div>
+
+        <div class="text-center bg-white p-4 rounded-lg shadow">
+          <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <span class="text-purple-600 text-2xl">🔄</span>
+          </div>
+          <h3 class="font-bold text-gray-800 mb-2">LIFETIME UPDATES</h3>
+          <p class="text-sm text-gray-600">Semua update baru, strategy baru - FREE selamanya.</p>
+        </div>
+      </div>
+
+      <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
+        <p class="text-center font-bold text-gray-800">
+          <span class="text-red-600">GUARANTEE:</span> Kalau dalam 60 hari korang tak buat sebarang income,
+          kami refund 100% + BONUS RM50 sebagai tanda minta maaf!
+        </p>
+      </div>
+    </div>
+
+    <!-- Security Badges -->
+    <div class="flex justify-center items-center space-x-4 mb-8">
+      <div class="flex items-center bg-gray-100 px-3 py-2 rounded">
+        <svg class="w-5 h-5 text-green-600 mr-1" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd"
+            d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <span class="text-xs text-gray-700 font-medium">SSL SECURE</span>
+      </div>
+      <div class="flex items-center bg-gray-100 px-3 py-2 rounded">
+        <svg class="w-5 h-5 text-blue-600 mr-1" fill="currentColor" viewBox="0 0 20 20">
+          <path
+            d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4zM18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z">
+          </path>
+        </svg>
+        <span class="text-xs text-gray-700 font-medium">PEMBAYARAN SELAMAT</span>
+      </div>
+      <div class="flex items-center bg-gray-100 px-3 py-2 rounded">
+        <svg class="w-5 h-5 text-green-600 mr-1" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd"
+            d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <span class="text-xs text-gray-700 font-medium">VERIFIED</span>
+      </div>
+    </div>
+
+    <!-- Guarantee Badge Poster -->
+    <div class="text-center mb-8">
+      <div class="bg-gradient-to-r from-blue-50 to-green-50 p-6 rounded-lg">
+        <h3 class="text-xl font-bold text-gray-800 mb-4">🛡️ GUARANTEE & SECURITY</h3>
+        <div class="max-w-sm mx-auto">
+          <!-- Replace with actual guarantee badge poster -->
+          <img id="guarantee-badge" src="https://via.placeholder.com/320x240/3B82F6/FFFFFF?text=GUARANTEE+BADGE+POSTER"
+            alt="Money Back Guarantee Badge"
+            class="w-full rounded-lg shadow-md border border-gray-200 hover:scale-105 transition-transform">
+          <p class="text-sm text-gray-600 mt-3 italic">*Replace dengan poster guarantee badge yang sebenar</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <div id="buy-section" class="text-center mb-8">
+      <div class="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-lg">
+        <h2 class="text-3xl font-bold mb-4">💸 PRICING & GUARANTEE:</h2>
+        <div class="space-y-2 mb-6">
+          <p class="text-xl line-through opacity-75">NORMAL PRICE: RM299</p>
+          <p class="text-xl line-through opacity-75">EARLY BIRD PRICE: RM97</p>
+          <p class="text-4xl font-bold text-yellow-300">TODAY ONLY: RM67</p>
+        </div>
+
+        <a id="buy-button" href="https://link-beli-anda.com" target="_blank"
+          class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-4 rounded-lg text-xl inline-block animate-pulse mb-4">
+          🚀 YA! SAYA NAK AKSES PPTA SEKARANG - RM67 SAHAJA!
+        </a>
+
+        <p class="text-sm">Tinggal <span id="stock-count">12</span> unit!</p>
+      </div>
+
+      <!-- WhatsApp Integration -->
+      <div class="mt-6">
+        <p class="text-sm text-gray-600 mb-2">Ada soalan? Tanya terus!</p>
+        <a href="https://wa.me/60123456789?text=Hi,%20saya%20berminat%20dengan%20PPTA%20-%20Panduan%20Part%20Time%20Affiliate"
+          target="_blank"
+          class="inline-flex items-center bg-green-400 hover:bg-green-500 text-white font-medium px-4 py-2 rounded-full">
+          <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.570-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
+          </svg>
+          WhatsApp Kami
+        </a>
+      </div>
+    </div>
+
+    <!-- Final Call to Action -->
+    <div class="bg-black text-white p-8 rounded-lg text-center mb-8">
+      <h2 class="text-2xl font-bold mb-4">🚨 LAST CALL - ACTION REQUIRED</h2>
+      <p class="mb-4">Lepas ni, price akan naik balik ke RM97, then RM299.</p>
+      <p class="mb-6"><strong>Kau ada 2 pilihan:</strong></p>
+      <div class="grid md:grid-cols-2 gap-4 mb-6">
+        <div class="bg-red-900 p-4 rounded">
+          <p class="font-bold">1. Tunggu lagi</p>
+          <p class="text-sm">maybe next month, next year, "bila ada duit lebih"...</p>
+        </div>
+        <div class="bg-green-900 p-4 rounded">
+          <p class="font-bold">2. Take action sekarang</p>
+          <p class="text-sm">invest RM67 hari ni, start building RM1K+ income minggu depan</p>
+        </div>
+      </div>
+      <p class="text-xl font-bold text-yellow-300">Yang mana satu akan ubah life kau?</p>
+    </div>
+
+    <!-- P.S. Section -->
+    <div class="bg-gray-50 p-6 rounded-lg text-center mb-8">
+      <p class="mb-3"><strong>P.S.</strong> — Setiap hari kau delay, ada orang lain yang dah mula. Jangan bagi chance
+        kat orang lain. Ambik chance untuk diri sendiri.</p>
+      <p><strong>P.P.S.</strong> — Remember: Yang best tentang affiliate marketing ni, kau tak jual produk sendiri. Kau
+        promote produk orang lain, dapat komisi. Risk rendah, potential tinggi.</p>
+    </div>
+
+    <!-- Free Lead Magnet Section -->
+    <div class="bg-gradient-to-r from-green-500 to-blue-600 text-white p-8 rounded-lg mb-8 shadow-2xl">
+      <div class="text-center mb-6">
+        <h2 class="text-3xl font-bold mb-4">🎁 DOWNLOAD PERCUMA SEKARANG!</h2>
+        <div class="bg-white bg-opacity-20 p-6 rounded-lg">
+          <h3 class="text-xl font-bold mb-4">"7-HARI AFFILIATE SUCCESS ROADMAP"</h3>
+          <div class="grid md:grid-cols-2 gap-4 text-sm">
+            <div class="space-y-2">
+              <p>✅ Step-by-step action plan untuk 7 hari pertama</p>
+              <p>✅ 15 profitable niche ideas yang guaranteed laku</p>
+              <p>✅ Templates untuk first viral content</p>
+            </div>
+            <div class="space-y-2">
+              <p>✅ Checklist untuk setup tools (FREE)</p>
+              <p>✅ Script untuk first sales conversion</p>
+              <p>✅ Bonus: List 50+ high-converting products</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-md mx-auto">
+        <form id="lead-magnet-form" class="space-y-4">
+          <div>
+            <input type="text" id="lead-name" name="name" placeholder="Nama anda" required
+              class="w-full px-4 py-3 rounded-lg text-gray-800 placeholder-gray-500 border-0 focus:ring-2 focus:ring-yellow-400">
+          </div>
+          <div>
+            <input type="email" id="lead-email" name="email" placeholder="Email anda" required
+              class="w-full px-4 py-3 rounded-lg text-gray-800 placeholder-gray-500 border-0 focus:ring-2 focus:ring-yellow-400">
+          </div>
+          <button type="submit"
+            class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-4 px-6 rounded-lg text-lg transition-colors">
+            📥 DOWNLOAD ROADMAP PERCUMA (Worth RM47)
+          </button>
+        </form>
+
+        <div class="flex items-center justify-center mt-4 space-x-4 text-sm">
+          <div class="flex items-center">
+            <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd"
+                d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <span>100% Secure</span>
+          </div>
+          <div class="flex items-center">
+            <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+            </svg>
+            <span>No Spam</span>
+          </div>
+          <div class="flex items-center">
+            <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <span>Instant Access</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-6">
+        <p class="text-sm opacity-90">
+          🔥 <span id="lead-magnet-downloads">1,847</span> orang dah download minggu ni!
+        </p>
+      </div>
+    </div>
+
+    <!-- Email Opt-in -->
+    <div class="bg-white p-6 rounded shadow text-center mb-10">
+      <h2 class="text-xl font-bold text-gray-800 mb-2">Nak Bonus Tambahan?</h2>
+      <p class="text-sm text-gray-500 mb-4">Masukkan email anda untuk terima akses khas!</p>
+      <form action="https://youremailplatform.com/subscribe" method="POST" target="_blank"
+        class="flex flex-col md:flex-row justify-center gap-3">
+        <input type="email" name="email" placeholder="Email anda" required
+          class="px-4 py-2 border rounded w-full md:w-80">
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded">Hantar</button>
+      </form>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center text-sm text-gray-500">
+      <p>© 2025 Panduan Part Time Affiliate. All rights reserved.</p>
+    </div>
+
+    <!-- Expired Message -->
+    <div id="expired-message" class="hidden text-center text-red-600 text-lg font-bold">
+      ⛔ Tawaran tamat. Harga kembali kepada RM299.
+    </div>
+  </div>
+
+  <!-- Exit Intent Popup -->
+  <div id="exit-popup" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg max-w-md mx-4 text-center relative">
+      <button id="close-popup"
+        class="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+      <h3 class="text-2xl font-bold text-red-600 mb-4">🛑 Tunggu Dulu!</h3>
+      <p class="text-gray-700 mb-4">Jangan lepaskan peluang ini! Dapatkan <strong>BONUS EKSKLUSIF RM50</strong> jika
+        anda beli sekarang.</p>
+      <div class="bg-yellow-100 p-4 rounded mb-4">
+        <p class="text-sm font-bold">🎁 BONUS TAMBAHAN:</p>
+        <p class="text-sm">• Template Email Marketing (Nilai RM29)</p>
+        <p class="text-sm">• Checklist Funnel (Nilai RM21)</p>
+      </div>
+      <a href="https://link-beli-anda.com" target="_blank"
+        class="bg-red-500 hover:bg-red-600 text-white font-bold px-6 py-3 rounded block mb-3">
+        Ambil Tawaran Khas Ini!
+      </a>
+      <p class="text-xs text-gray-500">Tawaran ini hanya untuk pelawat yang nak keluar sahaja</p>
+    </div>
+  </div>
+
+  <!-- Social Proof Notifications -->
+  <div id="social-proof"
+    class="fixed bottom-4 left-4 bg-green-500 text-white p-3 rounded-lg shadow-lg z-40 transform translate-y-full transition-transform duration-300">
+    <div class="flex items-center space-x-2">
+      <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+      <span class="text-sm font-medium" id="notification-text"></span>
+    </div>
+  </div>
+
+  <!-- Enhanced Social Proof Stack -->
+  <div class="fixed bottom-4 right-4 space-y-2 z-40">
+    <!-- Live Income Notification -->
+    <div id="live-income-notification"
+      class="bg-green-600 text-white p-3 rounded-lg shadow-lg border-2 border-yellow-400 hidden">
+      <div class="flex items-center space-x-2">
+        <div class="w-2 h-2 bg-yellow-400 rounded-full animate-ping"></div>
+        <span class="text-xs font-bold" id="income-notification-text">
+          <!-- Dynamic income content -->
+        </span>
+      </div>
+    </div>
+
+    <!-- Live Sales Counter -->
+    <div class="bg-green-500 text-white p-3 rounded-lg shadow-lg">
+      <div class="flex items-center space-x-2">
+        <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+        <span class="text-sm font-medium">
+          💰 <span id="sales-count">47</span> sales hari ni
+        </span>
+      </div>
+    </div>
+
+    <!-- Live Visitor Counter -->
+    <div class="bg-orange-500 text-white p-3 rounded-lg shadow-lg">
+      <div class="flex items-center space-x-2">
+        <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+        <span class="text-sm font-medium">
+          👀 <span id="visitor-count">23</span> orang tengah tengok
+        </span>
+      </div>
+    </div>
+
+    <!-- Student Counter -->
+    <div class="bg-blue-500 text-white p-3 rounded-lg shadow-lg">
+      <div class="flex items-center space-x-2">
+        <span class="text-sm font-medium">
+          🎓 <span id="student-count">1,247</span> student join
+        </span>
+      </div>
+    </div>
+
+    <!-- Recent Purchase -->
+    <div id="recent-purchase" class="bg-purple-500 text-white p-3 rounded-lg shadow-lg hidden">
+      <div class="flex items-center space-x-2">
+        <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+        <span class="text-xs font-medium" id="recent-purchase-text">
+          <!-- Dynamic content -->
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS Countdown Logic + New Features -->
+  <script>
+    const TIMER_DURATION = 48 * 60 * 60 * 1000;
+    const STORAGE_KEY = "affiliate_timer_start";
+    const total = TIMER_DURATION;
+
+    function pad(n) {return n.toString().padStart(2, '0');}
+
+    // Exit Intent Detection
+    let exitIntentShown = false;
+    document.addEventListener('mouseleave', function (e) {
+      if (e.clientY <= 0 && !exitIntentShown) {
+        showExitPopup();
+      }
+    });
+
+    function showExitPopup() {
+      exitIntentShown = true;
+      document.getElementById('exit-popup').classList.remove('hidden');
+
+      // Track exit intent event
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'exit_intent_popup_shown');
+      }
+      if (typeof fbq !== 'undefined') {
+        fbq('track', 'ViewContent', {content_name: 'exit_intent_popup'});
+      }
+    }
+
+    // Close popup handlers
+    document.getElementById('close-popup').addEventListener('click', function () {
+      document.getElementById('exit-popup').classList.add('hidden');
+    });
+
+    document.getElementById('exit-popup').addEventListener('click', function (e) {
+      if (e.target === this) {
+        this.classList.add('hidden');
+      }
+    });
+
+    // Social Proof Notifications - Updated for PPTA
+    const notifications = [
+      "Siti dari Johor baru beli PPTA 3 minit lepas",
+      "Hafiz dari UiTM baru beli PPTA 7 minit lepas",
+      "Ahmad dari KL baru beli PPTA 12 minit lepas",
+      "Aina dari Selangor baru beli PPTA 15 minit lepas",
+      "Fariz dari Penang baru beli PPTA 18 minit lepas",
+      "Maya dari Sarawak baru beli PPTA 22 minit lepas"
+    ];
+
+    function showSocialProof() {
+      const notification = notifications[Math.floor(Math.random() * notifications.length)];
+      const element = document.getElementById('social-proof');
+      const textElement = document.getElementById('notification-text');
+
+      textElement.textContent = notification;
+      element.classList.remove('translate-y-full');
+
+      setTimeout(() => {
+        element.classList.add('translate-y-full');
+      }, 4000);
+    }
+
+    // Show social proof every 15-25 seconds
+    setInterval(() => {
+      if (Math.random() > 0.3) { // 70% chance to show
+        showSocialProof();
+      }
+    }, Math.random() * 10000 + 15000);
+
+    // Live Visitor Counter
+    function updateVisitorCount() {
+      const baseCount = 18;
+      const variation = Math.floor(Math.random() * 12) + 1; // 1-12
+      const count = baseCount + variation;
+      document.getElementById('visitor-count').textContent = count;
+    }
+
+    // Update student count
+    function updateStudentCount() {
+      const baseCount = 1200;
+      const variation = Math.floor(Math.random() * 30) + 1;
+      const count = baseCount + variation;
+      document.getElementById('student-count').textContent = count.toLocaleString();
+    }
+
+    // Update counts
+    setInterval(updateVisitorCount, Math.random() * 20000 + 20000);
+    setInterval(updateStudentCount, Math.random() * 30000 + 30000);
+    updateVisitorCount();
+    updateStudentCount();
+
+    // Enhanced Analytics Tracking
+    function trackEvent(action, data = {}) {
+      if (typeof gtag !== 'undefined') {
+        gtag('event', action, data);
+      }
+      if (typeof fbq !== 'undefined') {
+        fbq('track', 'CustomEvent', {event_name: action, ...data});
+      }
+    }
+
+    // Track scroll depth
+    let maxScroll = 0;
+    window.addEventListener('scroll', function () {
+      const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+      if (scrollPercent > maxScroll) {
+        maxScroll = scrollPercent;
+        if (maxScroll >= 25 && maxScroll < 30) trackEvent('scroll_25');
+        if (maxScroll >= 50 && maxScroll < 55) trackEvent('scroll_50');
+        if (maxScroll >= 75 && maxScroll < 80) trackEvent('scroll_75');
+        if (maxScroll >= 90) trackEvent('scroll_90');
+      }
+    });
+
+    // Track time on page
+    let timeOnPage = 0;
+    setInterval(() => {
+      timeOnPage += 30;
+      if (timeOnPage === 60) trackEvent('time_on_page_1min');
+      if (timeOnPage === 180) trackEvent('time_on_page_3min');
+      if (timeOnPage === 300) trackEvent('time_on_page_5min');
+    }, 30000);
+
+    // Original countdown function with enhancements
+    function startCountdown() {
+      const now = Date.now();
+      let start = localStorage.getItem(STORAGE_KEY);
+      if (!start) {
+        start = now;
+        localStorage.setItem(STORAGE_KEY, start);
+        trackEvent('timer_started');
+      }
+      const end = parseInt(start) + TIMER_DURATION;
+      const progress = document.getElementById("progress");
+      const timers = document.querySelectorAll(".countdown-timer");
+      const exp = document.getElementById("expired-message");
+      const stockEl = document.getElementById("stock-count");
+      const buyBtn = document.getElementById("buy-button");
+
+      let stock = 12;
+      setInterval(() => {
+        if (stock > 1) {
+          stockEl.textContent = --stock;
+          if (stock <= 5) {
+            stockEl.parentElement.classList.add('text-red-500', 'font-bold');
+          }
+        }
+      }, 300000);
+
+      // Track buy button clicks
+      buyBtn.addEventListener('click', function () {
+        trackEvent('buy_button_click');
+      });
+
+      const interval = setInterval(() => {
+        const now = Date.now();
+        const rem = end - now;
+        const percent = Math.max(0, ((1 - rem / total) * 100));
+        progress.style.width = percent + "%";
+
+        if (rem <= 0) {
+          clearInterval(interval);
+          timers.forEach(el => el.textContent = "00j 00m 00s");
+          buyBtn.style.display = "none";
+          exp.classList.remove("hidden");
+          trackEvent('timer_expired');
+          return;
+        }
+
+        const h = Math.floor(rem / 3600000 % 48);
+        const m = Math.floor(rem / 60000 % 60);
+        const s = Math.floor(rem / 1000 % 60);
+        const formatted = `${pad(h)}j ${pad(m)}m ${pad(s)}s`;
+        timers.forEach(el => el.textContent = formatted);
+
+        // Urgency tracking
+        if (rem <= 3600000 && rem > 3599000) trackEvent('timer_1hour_left'); // 1 hour left
+        if (rem <= 1800000 && rem > 1799000) trackEvent('timer_30min_left'); // 30 min left
+      }, 1000);
+    }
+
+    startCountdown();
+
+    // FAQ Accordion Function
+    function toggleFAQ(button) {
+      const answer = button.parentElement.querySelector('.faq-answer');
+      const icon = button.querySelector('svg');
+      const isOpen = !answer.classList.contains('hidden');
+
+      // Close all other FAQs
+      document.querySelectorAll('.faq-answer').forEach(faq => faq.classList.add('hidden'));
+      document.querySelectorAll('.faq-question svg').forEach(svg => svg.classList.remove('rotate-180'));
+
+      if (!isOpen) {
+        answer.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+        trackEvent('faq_opened', {question: button.textContent.trim()});
+      }
+    }
+
+    // Track WhatsApp clicks
+    document.querySelector('a[href*="wa.me"]').addEventListener('click', function () {
+      trackEvent('whatsapp_click');
+    });
+
+    // Show first social proof after 10 seconds
+    setTimeout(showSocialProof, 10000);
+
+
+  </script>
+  <!-- Chart.js untuk income graph -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    .animate-fade-in {
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .emoji-rotate {
+      display: inline-block;
+      animation: swing 1s infinite ease-in-out;
+    }
+
+    @keyframes swing {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      25% {
+        transform: rotate(10deg);
+      }
+
+      50% {
+        transform: rotate(-10deg);
+      }
+
+      75% {
+        transform: rotate(5deg);
+      }
+
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+  </style>
+
+  <script>
+    window.onload = function () {
+      if (localStorage.getItem("currentSalary")) {
+        document.getElementById("current-salary").value = localStorage.getItem("currentSalary");
+        document.getElementById("time-commitment").value = localStorage.getItem("timeCommitment");
+        document.getElementById("timeline").value = localStorage.getItem("timeline");
+        document.getElementById("target-income").value = localStorage.getItem("targetIncome");
+      }
+    };
+
+    function calculateROI() {
+      const salary = parseFloat(document.getElementById("current-salary").value) || 0;
+      const hours = parseInt(document.getElementById("time-commitment").value) || 0;
+      const timeline = parseInt(document.getElementById("timeline").value) || 6;
+      const target = parseFloat(document.getElementById("target-income").value) || null;
+
+      // Simpan input user
+      localStorage.setItem("currentSalary", salary);
+      localStorage.setItem("timeCommitment", hours);
+      localStorage.setItem("timeline", timeline);
+      localStorage.setItem("targetIncome", target || "");
+
+      const minDailyRate = 10;
+      const maxDailyRate = 30;
+      const days = timeline * 30;
+      const minIncome = hours * minDailyRate * days;
+      const maxIncome = hours * maxDailyRate * days;
+
+      const minDaily = hours * minDailyRate;
+      const maxDaily = hours * maxDailyRate;
+
+      const minDaysToBreakEven = Math.ceil(67 / maxDaily);
+      const maxDaysToBreakEven = Math.ceil(67 / minDaily);
+
+      const profitMin = minIncome - 67;
+      const profitMax = maxIncome - 67;
+      const roiMin = Math.round((profitMin / 67) * 100);
+      const roiMax = Math.round((profitMax / 67) * 100);
+
+      <!-- ...existing code... -->
+      const container = document.getElementById("roi-results");
+      const output = `
+      <div class="animate-fade-in bg-green-50 border-l-4 border-green-500 p-6 rounded-lg shadow-lg">
+        <h3 class="text-xl font-bold text-green-700 mb-4"><span class="emoji-rotate">📊</span> Ringkasan ROI Anda</h3>
+        <ul class="text-sm text-gray-800 space-y-2">
+          <li>💼 <strong>Modal:</strong> RM67</li>
+          <li>⏱️ <strong>Komitmen:</strong> ${hours} jam / hari</li>
+          <li>📈 <strong>Pulangan:</strong> RM${minIncome.toLocaleString()} – RM${maxIncome.toLocaleString()} (${timeline} bulan)</li>
+          <li>🔁 <strong>ROI:</strong> ${roiMin.toLocaleString()}% – ${roiMax.toLocaleString()}%</li>
+          <li>💸 <strong>Balik Modal:</strong> ${minDaysToBreakEven} – ${maxDaysToBreakEven} hari</li>
+        </ul>
+        <div class="mt-4 bg-yellow-100 text-yellow-800 p-4 rounded-lg text-sm font-semibold border-l-4 border-yellow-500">
+          ⚡ RM2.23 sehari (lagi murah dari teh ais!) – tapi potensi ribuan ringgit!
+        </div>
+
+        ${target ? `
+        <div class="mt-4 text-sm">
+          🎯 <strong>Target Anda:</strong> RM${target.toLocaleString()} / bulan<br/>
+          ${minIncome >= target ? `<span class="text-green-600 font-semibold">🔥 Confirm boleh capai target!</span>` :
+            (maxIncome >= target ? `<span class="text-yellow-600 font-semibold">⚠️ Target boleh dicapai, tapi perlu konsisten.</span>` :
+              `<span class="text-red-600 font-semibold">❌ Target agak tinggi – pertimbang tambah masa atau bulan.</span>`)}
+        </div>` : ''}
+
+        <div class="mt-6">
+          <div class="w-full overflow-x-auto">
+            <div class="min-w-[280px] max-w-full">
+              <canvas id="incomeChart" height="180" style="max-width:100%;"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-6 hidden" id="delayed-cta">
+          <a href="#buy-section"
+             class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-all inline-block animate-bounce">
+             🚀 Ya! Saya Nak Gandakan Income Saya Sekarang!
+          </a>
+        </div>
+      </div>
+    `;
+      container.innerHTML = output;
+
+      // Chart income simulation
+      const ctx = document.getElementById('incomeChart').getContext('2d');
+      const months = Array.from({length: timeline}, (_, i) => `Bulan ${i + 1}`);
+      const minIncomeData = months.map((_, i) => Math.round(hours * minDailyRate * 30 * (1 + 0.1 * i)));
+      const maxIncomeData = months.map((_, i) => Math.round(hours * maxDailyRate * 30 * (1 + 0.1 * i)));
+
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: months,
+          datasets: [
+            {
+              label: 'Min Income',
+              data: minIncomeData,
+              borderColor: 'rgba(34,197,94,1)',
+              backgroundColor: 'rgba(34,197,94,0.2)',
+              borderWidth: 2,
+              fill: true,
+              tension: 0.3
+            },
+            {
+              label: 'Max Income',
+              data: maxIncomeData,
+              borderColor: 'rgba(59,130,246,1)',
+              backgroundColor: 'rgba(59,130,246,0.2)',
+              borderWidth: 2,
+              fill: true,
+              tension: 0.3
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          aspectRatio: 2,
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: {
+                callback: function (value) {
+                  return 'RM' + value;
+                }
+              }
+            }
+          },
+          plugins: {
+            legend: {
+              labels: {
+                font: {
+                  size: 12
+                }
+              }
+            }
+          }
+        }
+      });
+
+      // Delay 5 saat sebelum tunjuk butang CTA
+      setTimeout(() => {
+        document.getElementById('delayed-cta').classList.remove('hidden');
+      }, 5000); // sekarang 5s — boleh ubah ke 20s/30s ikut suka
+
+      // Auto scroll ke bawah kalau ROI tinggi
+      //if (roiMin >= 3000 || roiMax >= 3000) {
+      //  setTimeout(() => {
+      //    document.getElementById('buy-section').scrollIntoView({ behavior: 'smooth' });
+      //  }, 13000);
+    }
+  </script>
+
+</body>
+
+</html>
